@@ -1,0 +1,15 @@
+{
+  "name": "js-async-weather-api-lab",
+  "version": "1.0.0",
+  "description": "A project for visualizing temperature data using the Open Weather Map API.",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

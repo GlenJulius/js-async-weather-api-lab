@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    <main>
+        <form id="weather-form">
+            <input type="text" id="city-input" placeholder="Enter city name" required>
+            <button type="submit">Get Weather</button>
+        </form>
+        <section id="weather-info">
+            <h2>Current Weather</h2>
+            <table>
+                <tr>
+                    <th>Temperature</th>
+                    <th>Humidity</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td id="temp"></td>
+                    <td id="humidity"></td>
+                    <td id="description"></td>
+                </tr>
+            </table>
+        </section>
+        <aside id="forecast">
+            <h2>5-Day Forecast</h2>
+            <div id="forecast-container"></div>
+        </aside>
+        <canvas id="weather-chart"></canvas>
+    </main>
+    <footer>
+        <p>&copy; 2023 Weather App</p>
+    </footer>
+</body>
+</html>
